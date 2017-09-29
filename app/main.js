@@ -6,7 +6,7 @@ import {render} from 'react-dom'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 //引入组件
-import App from './App.js'
+import App from '../containers/App.js'
 import todoApp from '../Reducers/reducers'
 
 let store = createStore(todoApp)
